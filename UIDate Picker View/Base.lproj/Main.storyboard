@@ -20,6 +20,9 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="216" id="7yd-EG-QQm"/>
                                 </constraints>
+                                <connections>
+                                    <action selector="datePickerUnit:" destination="BYZ-38-t0r" eventType="valueChanged" id="H09-Kn-y2T"/>
+                                </connections>
                             </datePicker>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="UIDatePicker View Demo" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="9nf-dF-Xz3">
                                 <rect key="frame" x="16" y="20" width="343" height="33"/>
@@ -138,6 +141,17 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="datePicker" destination="Bp0-9M-Ede" id="3c3-Xr-C5C"/>
+                        <outlet property="lbl1Label" destination="CmY-bl-TBT" id="QJC-DJ-g4T"/>
+                        <outlet property="lbl2Label" destination="1jE-zv-0Ic" id="1XY-iR-KPn"/>
+                        <outlet property="lbl3Label" destination="lKW-SR-Gxh" id="xqh-ru-Hum"/>
+                        <outlet property="lbl4Label" destination="7xZ-d6-aYF" id="hwf-Z2-cqq"/>
+                        <outlet property="lbl5Label" destination="Qz0-0I-rNO" id="jAa-5h-zWa"/>
+                        <outlet property="lbl6Label" destination="scI-ST-A4O" id="Hhd-Nj-YLY"/>
+                        <outlet property="lbl7Label" destination="cDk-Lp-KWN" id="OO9-vS-Z6j"/>
+                        <outlet property="lbl8Label" destination="esi-hl-Hef" id="Tyo-tZ-cNU"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
