@@ -1,6 +1,8 @@
 # SwiftUIDatePickerViewDemo
 Swift - Swift UIDatePickerView Demo - Demo 21 of 30
 
+App created in Xcode 11.0 using Swift 5.0, iOS Deployment Target 13.0 and tested on a iPhone Pro Max Emulator
+
 In this demo app we demonstrate how to code a Swift UIDatePicker View with various results displayed on labels rite above.
 
 There are so many interesting things within swift. This demo shows one way to setup the UIDatePicker View on the bottom of 
@@ -13,7 +15,7 @@ other with code to show the various outputs that can be displayed from the selec
 Coming soon:<br>
 Details and the screen cap images of the app in use can be found on <a href="http://digitalmirko.com/iOSApps.html">Digital Mirko</a>.
 
-Screen Cap on a iPhone Xr device:(shown below)</br>
+Screen Cap on a iPhone 11 Pro Max device:(shown below)</br>
 (Left image) App started.<br>
 (Middle Image) Picker view moved with date selected information shown up above in various labels.<br>
 (Right image) Picker view moved with date selected information shown up above in various labels.<br>
